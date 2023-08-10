@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyHTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="#" alt="logo">
+        <nav class="menu"></nav>
+    </header>
+
+    <main>
+        <img src="#" alt="main view">
+        <h3>the brand of luxurious fashion</h3>
+        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+        <label for="happy">Brand</label>
+    </main>
+    <section class="registry">
+        <h2>Регистрация. Обязательные поля *</h2>
+        <form oninput="result.value = slider.value">
+            <label for="name">Name *</label>
+            <input required autofocus type="text" id="name"><br>
+            Email <input type="email"><br>
+            Password * <input required type="password" title="буквы цифры и _ от 3 до 10 символов"
+                pattern="\w{3,10}"><br>
+            Birthdate <input type="date"><br>
+            Phone * <input required type="tel" placeholder="+7-xxx-xxx-xxxx" title="+7-xxx-xxx-xxxx"
+                pattern="\+7-\d{3}-\d{3}-\d{4}"><br>
+
+            <label>Range</label>
+            <input type="range" id="slider" min="0" max="10" step="1" value="3">
+            <output name="result" for="slider">3</output> %
+
+            <br><br>
+            <button type="submit">Готово</button>
+        </form>
+    </section>
+
+    <section>
+        <article>
+            <img src="#" alt="woman">
+            <h2>for women</h2>
+        </article>
+        <article>
+            <img src="#" alt="man">
+            <h2>for men</h2>
+        </article>
+        <article>
+            <img src="#" alt="kid">
+            <h2>for kids</h2>
+        </article>
+        <article>
+            <img src="#" alt="acces">
+            <h2>accesories</h2>
+        </article>
+    </section>
+
+    <section>
+        <header>
+            <h2>Featured Items</h2>
+            <p>Shop for items...</p>
+        </header>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <article>
+            <img src="#" alt="pic">
+            <h2>Ellery</h2>
+            <p>Moda Operandi</p>
+        </article>
+        <nav>
+            <a href="#">Browse ALL Products</a>
+        </nav>
+    </section>
+
+    <section>
+        <h2>Audio & Video</h2>
+        <audio class="audio" controls src="#"></audio><br>
+        <video class="video" controls src="#"></video>
+    </section>
+
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
