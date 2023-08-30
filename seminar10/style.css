@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #edf103;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("img/25775.svg")
+}
